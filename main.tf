@@ -1,3 +1,6 @@
+variable "accesskey" {}
+variable "secetkey" {}
+
 provider "aws" {
   region = "us-east-1"
   access_key = var.accesskey
