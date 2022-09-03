@@ -19,6 +19,6 @@ resource "aws_instance" "terracloud-dev" {
   instance_type = "t2.micro"
   key_name = "5thday"
   tags = {
-    Name = "terra-cloud-dev"
+    Name = "terra-cloud-dev---modified"
   }
 }
